@@ -78,4 +78,4 @@ theme: mbs
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/geekyMoa/mbs-wordpress
+  repo: git@github.com:geekyMoa/mbs-wordpress.git

@@ -1,0 +1,17 @@
+<header class="header">
+  <nav uk-navbar class="uk-navbar-container">
+    <div class="uk-navbar-left">
+      <div class="container">
+        <ul class="uk-navbar-nav">
+          <% for (var i in theme.menu){ %>
+            <li>
+              <a class="" href="<%- url_for(theme.menu[i]) %>">
+                <%= i %>
+              </a>
+              <% } %>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

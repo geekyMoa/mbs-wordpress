@@ -77,4 +77,5 @@ theme: mbs
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/geekyMoa/mbs-wordpress

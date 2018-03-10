@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Medborgarskolan WordPress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/uikit.min.css">
+</head>
+
+  <body>
+    <header class="header">
+  <nav uk-navbar class="uk-navbar-container">
+    <div class="uk-navbar-left">
+      <div class="container">
+        <ul class="uk-navbar-nav">
+          
+            <li>
+              <a class="" href="/">
+                Hem
+              </a>
+              
+            <li>
+              <a class="" href="/Installera-WP">
+                Installation
+              </a>
+              
+            <li>
+              <a class="" href="/skapa-dina-forsta-inlagg">
+                Skapa inlägg
+              </a>
+              
+            <li>
+              <a class="" href="/Installera-teman-och-plugins">
+                Teman &amp; Plugins
+              </a>
+              
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+      <div class="container">
+        <section class="content">
+          <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+  <!-- <div class="article-meta">
+    <a href="/Installera-WP/index.html" class="article-date">
+  <time datetime="2018-03-08T13:06:07.000Z" itemprop="datePublished">2018-03-08</time>
+</a>
+    
+  </div> -->
+  <div class="article-inner">
+    
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      Installera WP
+    </h1>
+  
+
+        </header>
+        
+          <div class="article-entry" itemprop="articleBody">
+            
+                      <h2 id="Ladda-ner"><a href="#Ladda-ner" class="headerlink" title="Ladda ner"></a>Ladda ner</h2><p>Gå till <a href="http://wordpress.org" target="_blank" rel="noopener">http://wordpress.org</a> och klicka på “Ladda ner”. Du kommer få ner en <code>.zip</code>-fil. Packa upp den genom att dubbelklicka på den och titta på innehållet. Notera att det finns en <code>wp-content</code>-mapp och en fil som heter <code>wp-config-sample.php</code>. Vi kommer återkomma till dessa två.</p>
+<h2 id="Flytta-till-ratt-mapp-pa-din-dator"><a href="#Flytta-till-ratt-mapp-pa-din-dator" class="headerlink" title="Flytta till rätt mapp på din dator"></a>Flytta till rätt mapp på din dator</h2><p>Öppna utforskaren i Windows. Navigera till <code>C:/MAMP/htdocs</code>. I denna mapp ska du lägga hela wordpress-mappen som du just laddade ner, inklusive alla filer i den mappen. Det enklaste är att dra och släppa <code>wordpress</code>-mappen i <code>htdocs</code>-mappen.</p>
+<p>Dina WordPress-filer ska nu ha sökvägen <code>C:/MAMP/htdocs/wordpress</code>.</p>
+<h2 id="phpMyAdmin"><a href="#phpMyAdmin" class="headerlink" title="phpMyAdmin"></a>phpMyAdmin</h2><p>phpMyAdmin är ett program för att administrera databaser, och vi ska använda det för att skapa databasen till vår WordPress-sajt.</p>
+<p>Öppna programmet MAMP. Om du inte hittar det på skrivbordet, använd sökfunktionen i Windows (förstoringsglaset i närheten av Start-menyn). MAMP har ett val som heter ungefär “Open WebStart page” (exakta formuleringen kan skilja sig lite åt beroende på version av MAMP). Klicka på det valet.</p>
+<p>Du bör mötas av en sida som ser ut så här:</p>
+<p><img src="/images/mamp-webstart.png" alt="alt text" title="MAMP Webstart"></p>
+<p>Under rubriken “MySQL” finns en liten länk med texten “phpMyAdmin”, klicka på den.</p>
+<p><img src="/images/phpmyadmin.png" alt="alt text" title="phpMyAdmin"></p>
+<p>Klicka på fliken “Databases” och hitta fältet “Create database”. Välj ett namn utan svenska tecken och kom ihåg vad du döpte din nya databas till - du behöver namnet senare. Clicka på knappen “Create”.</p>
+<h2 id="Beratta-for-WordPress-om-databasen"><a href="#Beratta-for-WordPress-om-databasen" class="headerlink" title="Berätta för WordPress om databasen"></a>Berätta för WordPress om databasen</h2><p>Nu ska du kunna gå till din lokala WordPress-installation och berätta för WordPress om din databas! Gå till <a href="http://localhost/wordpress" target="_blank" rel="noopener">http://localhost/wordpress</a>. Läs igenom texten och klicka på knappen “Då kör vi!” längst ned.</p>
+<p>Här behöver du namnet på din databas som du skapade, det fyller du i i fältet “Databasnamn”. Användarnamn och lösenord är <code>root</code>och <code>root</code> (samma användarnamn som lösenord). Dessa uppgifter finns på MAMP:s webstart-sida.</p>
+<h2 id="Installera-WordPress"><a href="#Installera-WordPress" class="headerlink" title="Installera WordPress!"></a>Installera WordPress!</h2><p>Följ instruktionerna på skärmen! Tänk på att den sajt du nu skapar inte kommer finnas tillgänglig för andra på internet, utan <em>bara</em> kommer synas för dig som använder just den här datorn, så du behöver inte hitta på något krångligt lösenord. Om du däremot gör detta själv med en riktig webbplats så är det väldigt viktigt att välja ett långt och starkt lösenord!</p>
+
+                        
+          </div>
+          <footer class="article-footer">
+            <a data-url="http://yoursite.com/Installera-WP/index.html" data-id="cjel9wd7d0000ff3y4vtvhf4t" class="article-share-link">
+              Teilen
+            </a>
+            
+                
+          </footer>
+  </div>
+  
+    
+      
+</article>
+
+
+        </section>
+      </div>
+  </body>
+
+  </html>
